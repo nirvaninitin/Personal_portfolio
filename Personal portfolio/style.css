@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "PT Serif", serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+#nav h2{
+    font-weight: 500;
+    font-size: 2rem;
+    color: #fff;
+}
+#nav i{
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    font-size: 30px;
+}
+#menu{
+    width: 25%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.525);
+    position: absolute;
+    top: 0px;
+    right: -25%;
+    backdrop-filter: blur(10px);
+    padding: 60px 0px 0px 10px
+}
+#menu h4{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+#menu h4:hover{
+    font-size: 32px;
+}
+#menu i{
+    font-size: 25px;
+    background-color: white;
+    color: #111;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    padding: 5px;
+    cursor: pointer;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.part1{
+    margin-top: 30px;
+}
+#main .part1 h1{
+    font-size: 2.5rem;
+    color: #fff;
+}
+#main .part1 h2{
+    font-size: 3rem;
+    color: violet;
+    font-weight: 500;
+}
+.part1 button{
+    background-color: violet;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.part2 img{
+    height: 400px;
+    width: 400px;
+    border: none;
+    border-radius: 50%;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+}
+#part3 img{
+    height: 500px;
+    width: 400px;
+}
+#part4{
+    height: 80%;
+    width: 700px;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+#part4 h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: violet;
+}
+#part4 p{
+    margin-bottom: 40px;
+    color: black;
+    font-size: 18px;
+}
+#part4 button{
+    background-color: violet;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    color: #f5f5f5;
+}
+.title{
+    text-align: center;
+    margin: 0px 0px 50px 0px ;
+    font-size: 30px;
+    font-weight: 500px;
+}
+#projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+    background-color:black;
+    height: 400px;
+    width: 350px;
+    border-radius:5px;
+    color: #111;
+    box-shadow: 2px 3px 3px gray;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    height: 150px;
+
+    width: 100%;
+    overflow: hidden;
+}
+.card h4{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0px 10px 0px;
+}
+.card p{
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+}
+.card button{
+    cursor: pointer;
+    padding: 5px;
+    color: violet;
+    background-color: transparent;
+    border: 2px solid violet;
+    margin-top: 20px;
+}
+.card button:hover{
+    background-color: violet;
+    color: #fff;
+    border: none;
+    scale:1.2
+}
+#page4{
+    height: 60vh;
+    width: 100vw;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#page4 #right{
+    height: 250px;
+    width: 400px;
+    /* background-color: #111; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+#right input{
+    padding: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 350px;
+}
+#left li{
+    list-style: none;
+}
+#left h2{
+    font-size: 35px;
+    text-align: center;
+    color: violet;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#end{
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    color: violet;
+    background-color: #f5f5f5;
+}
